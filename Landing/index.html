@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Tacos </title>
+</head>
+
+<body>
+    <div class="container-fluid header m-0 p-0 row">
+        <div class="first obj col-lg-6 d-flex align-items-center justify-content-center">
+            <div class="">
+                <h1 class="titulo">Taquitos
+                    <br>a domicilio</h1>
+                <p class="parrafoT">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab distinctio<br> tempora fuga in ex illo, vitae
+                    est aut quis deserunt!</p>
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn btn-lg btn-light btn-1" onclick="window.location.href='#menu'">Ver menus</button>
+                    <button type="button" class="btn btn-lg btn-outline-light" onclick="window.location.href='#formulario'">Escribanos</button>
+                </div>    
+            </div>
+            
+        </div>
+        <div class="second obj col-lg-6 p-5">
+            <div class="iconos d-flex justify-content-center d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                <p><i class="bi bi-facebook mx-3 fs-4"></i>michile.facebook</p>
+                <p><i class="bi bi-instagram mx-3 fs-4"></i></i>michile.instagram</p>
+                <img class="jpg-circle2 position-absolute top-50 end-0 translate-middle shadow" 
+                src="top-view-fresh-mexican-food-with-lime.jpg" alt="">
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid seccion-2 row p-0 mb-5">
+        <div class="derecha col  col-sm  px-5 d-flex align-items-center position-relative container">
+            <img class="jpg-circle shadow position-absolute top-50 end-0 translate-middle d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"
+                src="mexican-food-concept-high-angle.jpg" alt="">
+            <div class="text-circle shadow d-flex align-items-center justify-content-center position-absolute top-30">
+                <div class="text-center fw-bold">
+                    <h3 class="fs-1">
+                        Te chuparas
+                    </h3>
+                    <h3 class="barra fs-1">los dedos de sabor</h3>
+                    <ul class="px-5 fs-3">
+                        <li class="">Tacos al pastor</li>
+                        <li>Tacos de guisado</li>
+                        <li>Parrilladas</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="izquierda col col-sm   d-flex align-items-center justify-content-center container">
+            <div class="fw-bold text-center ">
+                <div class="m-0 p-0">
+                    <h2 class="fs-1 fw-bold color-1 acep m-0 p-0">Aceptamos todas
+                        las
+                        tarjetas de credito
+                    </h2>
+
+                    <img class="container pagos" src="icono-paypal-tarjetas.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container mb-3"></div>
+    <div class="text-center color-1 my-5 container p-0">
+        <h1 class="fw-bold titulo2">
+            Servicio a domicilio
+        </h1>
+        <h3 class="fw-bold  sub2">Un deleite para tu paladar</h3>
+    </div>
+    <div class="seccion-3 container-fluid py-5 px-4" id="menu">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card shadow">
+                    <img src="trompo-pastor-inspirado-trompo-mexicano.jpg" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title color-2 text-center fs-3 fw-bold">Tacos al pastor</h5>
+                        <p class="card-text color-1 fs-4">Disfruta del rico sabor de nuestros tacos al pastor,
+                            parrilladas y
+                            tacos de guisado, somos especialistas en grandes eventos</p>
+                        <footer class="text-center">
+                            <button type="button" class="btn btn-outline-dark fs-5 btn-1" data-bs-toggle="modal"
+                                data-bs-target="#modal1">
+                                Ver mas
+                            </button>
+
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow">
+                    <img src="guisados.jpg" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title color-2 text-center fs-3 fw-bold">Tacos de guisado</h5>
+                        <p class="card-text color-1 fs-4">Nuestros tacos tacos de guisado
+                            presentamos su historia y las mejores recetas que te ayudarán a disfrutar</p>
+                        <footer class="text-center">
+                            <button type="button" class="btn btn-outline-dark fs-5 btn-1" data-bs-toggle="modal"
+                                data-bs-target="#modal2">
+                                Ver mas
+                            </button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow">
+                    <img src="parrillada.jpg" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title color-2 text-center fs-3 fw-bold">Parrillada</h5>
+                        <p class="card-text color-1 fs-4">La parrillada es una mezcla
+                            para tu paladar, que puedes disfrutar en fin de semana, ocasiones especiales
+                        </p>
+                        <footer class="text-center">
+                            <button type="button" class="btn btn-outline-dark fs-5 btn-1" data-bs-toggle="modal"
+                                data-bs-target="#modal3">
+                                Ver mas
+                            </button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- modals -->
+    <div class="modal fade" id="modal1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title color-2 fw-bold" id="exampleModalToggleLabel">El servicio de Tacos al Pastor
+                        incluye:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    Trompo al pastor<br>
+                    Limones, cebolla, cilantro, piña, salsa roja y salsa verde.<br>
+                    Todo esto puesto en un una mesa de autoservicio<br>
+                    Todo en desechable !!<br>
+                    Los mejores tacos al pastor que hayas probado<br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title color-2 fw-bold" id="exampleModalToggleLabel">El servicio de Tacos de Guisado
+                        incluye:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+
+                    • 5 guisados a seleccionar<br>
+                    • Arroz o frijoles<br>
+                    • Tortillas, servilletas, tenedores y platos desechables<br>
+                    • 2 horas de Servicio<br>
+                    • Llegamos 30 minuntos antes para colocar barra de bufete<br>
+                    • Atendemos mínimo 50 personas y en más de 80 personas, agua de sabor incluida
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-light" data-bs-target="#ModalToggle2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal"><i class="bi bi-arrow-right-square"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title color-2 fw-bold " id="exampleModalToggleLabel2">El servicio de Tacos de
+                        Guisado incluye:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <div class="col px-5">
+                        • Alambre<br>
+                        • Albóndigas<br>
+                        • Bisteck o hígado a la mexicana<br>
+                        • Puerco en verdolagas o acelgas<br>
+                        • Chicharrón en salsa verde o roja<br>
+                        • Chicharrón prensado<br>
+                        • Ensalada de atún o pollo<br>
+                        • Ensalada de nopales<br>
+                        • Milanesas en tiras<br>
+                    </div>
+                    <div class="col mx-auto">
+                        • Rajas con crema<br>
+                        • Chorizo con papas<br>
+                        • Pollo con mole<br>
+                        • Pollo en pipián<br>
+                        • Tinga de res o de pollo<br>
+                        • Pollo indio<br>
+                        • Huevo con salchicha o jamón<br>
+                        • Bisteck o hígado encebollado<br>
+                        • Pollo con nopales<br>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-light" data-bs-target="#modal2" data-bs-toggle="modal"
+                        data-bs-dismiss="modal"><i class="bi bi-arrow-left-square"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h5 class="modal-title color-2 fw-bold " id="exampleModalToggleLabel2">
+                        El servicio de Tacos de Guisado incluye:
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <p>
+                        <b>SENCILLA: (MINIMO 40 PERSONAS)</b><br>
+                        Bisteck, alambre, pollo, longaniza, pastor (sin trompo)
+                    </p>
+                    <p>
+                        <b>COMPLETA (MINIMO 60 PERSONAS)</b><br>
+                        Bisteck, alambre, pollo, costilla, arrachera y pastor (sin trompo)
+                    </p>
+                    <p>
+                        <b>CORTES FINOS (MINIMO 80 PERSONAS):</b>
+                        <br>
+                        Bisteck, Alambre, Pollo, Longaniza, Rib Eye, Sirlon, Pastor (sin trompo) y Arrachera en corte
+                        grueso<br>
+                        fileteado para poder hacer tacos.<br>
+                    </p>
+
+                    <p>
+                        <b>Todas las parrilladas incluyen:</b><br>
+                        • Cebollita fileteada, chiles toreados, nopalitos, salsa roja y verde, tortillas, cebolla y
+                        cilantro<br>
+                        picado, limones servilletas y patos desechables.<br>
+                        • Dos horas de servicio todo se prepara en el lugar<br>
+                        • Promedio 10 tacos por persona<br>
+                        • Todo se prepara en el lugar, llegamos una hora antes para preparar todo.<br>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- seccion 4 -->
+    <div class="container p-lg-5 p-sm-2 rounded seccion-4 mt-5 py-auto d-flex align-items-center justify-content-center shadow">
+        <div class="row ">
+            <div class="col-lg-6 col-md col-sm  d-flex align-items-center justify-content-center">
+                <img class="img-fluid logo" src="logo.jpg" alt="">
+            </div>
+            <div class="col-lg-6 col-md col-sm  d-flex align-items-center justify-content-center  p-sm-0 p-md-3">
+                <div class="container">
+                    <p>
+                        En Tacos al Pastor damos servicio a domicilio, para cualquier fiesta o reunión.
+                        Atendemos en cualquier parte del distrito federal y aéreas conurbadas.
+                        Nuestras taquizas son preparadas con insumos de primera calidad, en parrilladas y tacos al
+                        pastor todo se prepara en su domicilio para que usted deguste de sus tacos frescos y recién
+                        preparados.
+
+                    </p>
+                    <div class="text-center container">
+                        <p>
+                            Nosotros nos encargamos del servicio y usted se encarga de chuparse los dedos!!!
+                            En tacos a domicilio te chuparas los dedos!!!
+                        </p>
+
+                        <button type="button" class="btn btn-outline-dark fw-bold btn-1 btn-block mt-5" data-bs-toggle="modal"
+                            data-bs-target="#modal4">Mas informacion</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="modal fade" id="modal4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body row">
+                    <p>
+                        Los tacos de guisado son presentados en una barra tipo bufette con bufetteras o cazuelas de
+                        barro según su elección.<br>
+                        Atendemos mínimo 50 personas y estamos convencidos de nuestra calidad en los alimentos, que nos
+                        volverán a contratar!!!<br>
+                        En Tacos al Pastor el servicio es a domicilio, para cualquier parte del DF sin costo por envió y
+                        para afuera cotizamos los gastos de envió.<br>
+                        Nuestros productos son de primera calidad, en parrilladas y tacos al pastor todo se prepara en
+                        su domicilio para que usted coma recién preparado.<br>
+                        Los tacos de guisado se presentan en una barra tipo bufette con bufetteras o cazuelas de barro.
+                        <br>
+                        En tacos a domicilio te chuparas los dedos!!!<br>
+                        Parrilladas a domicilio, vamos a cualquier parte del D.F. sin costo y atendemos a la republica
+                        solo con gastos de transporte, llegamos una hora antes para preparar todo en el lugar y asi este
+                        todo recién hecho, fresco y recién preparado.<br>
+                        A la vista de los comensales!!!<br>
+                        Nuestra carne es de primera, por eso preparamos todo delante del cliente así no hay engaños,
+                        estamos convencidos que se chupara los dedos y sus invitados nos contrataran para sus
+                        eventos.<br>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-5 footer m-0 container-fluid">
+        <div class="row m-0">
+            <div class="col d-flex align-items-center justify-content-center">
+                <div>
+                    <div class="mb-5">
+                        <h4 class="">Contactenos</h4>
+                        <p><i class="bi bi-telephone mx-3"></i>Tel 7097-4363</p>
+                        <p><i class="bi bi-whatsapp mx-3"></i>556067-5112</p>
+                        <p><i class="bi bi-geo-alt-fill mx-3"></i>Servicio en la CDMX y Zona Metropolitana</p>
+                        <p><i class="bi bi-envelope-fill mx-3"></i>michile.tacos@gmail.com</p>
+                    </div>
+                    <div>
+                        <h4>Copyright</h4>
+                        <p>2014 - 2022 Tacos al Pastor a Domicilio.
+                        </p><br>
+                        <p>Todos los logotipos, nombres y marcas mencionados en nuestro sitio son <br>
+                            propiedad de su respectivo
+                            propietario, las fotografías son únicamente para fines<br> de ilustración</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 m-0">
+                <div class="formulario py-3 px-5" id="formulario">
+                    <h4 class="text-center mb-4">Dudas y contrataciones</h4>
+                    <form action="solicitarInfo.php" method="POST">
+                        <!-- Name input -->
+                        <div class="form-group mb-4">
+                            <label class="form-label" for="form4Example1">Nombre</label>
+                            <input type="text" id="form4Example1" class="form-control" name="nombre"/>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-group mb-4">
+                            <label class="form-label" for="form4Example2">Correo</label>
+                            <input type="email" id="form4Example2" class="form-control" name="correo"/>
+                        </div>
+                        <!-- Name input -->
+                        <div class="form-group mb-4">
+                            <label class="" for="form4Example1">Telefono</label>
+                            <input type="text" id="form4Example1" class="form-control" name="telefono"/>
+                        </div>
+                        <!-- Message input -->
+                        <div class="form-group mb-4">
+                            <label class="form-label" for="form4Example3">Comentario</label>
+                            <textarea class="form-control" id="form4Example3" rows="4" name="descripcion"></textarea>
+
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-outline-light mb-4 ">Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
